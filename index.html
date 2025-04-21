@@ -3,27 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Detector de Piscadas</title>
-    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
-    <script src="https://cdn.jsdelivr.net/npm/face-api.js"></script>
+    <title>Mudança Automática de Página</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin: 20px;
-        }
-        #videoContainer {
-            margin: 20px auto;
-            position: relative;
-        }
-        #video {
-            background: #000;
-            transform: scaleX(-1); /* Espelha a imagem */
-        }
-        #canvas {
-            position: absolute;
-            top: 0;
-            left: 0;
         }
         .page {
             display: none;
@@ -35,28 +20,35 @@
         .active {
             display: block;
         }
+        #timer {
+            font-size: 1.2em;
+            margin: 20px;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    <h1>Detector de Piscadas</h1>
-    <p>Pisque os olhos para mudar de página</p>
     
-    <div id="videoContainer">
-        <video id="video" width="640" height="480" autoplay muted></video>
-        <canvas id="canvas" width="640" height="480"></canvas>
-    </div>
+    <div id="timer">Próxima mudança em: 3 segundos</div>
     
     <div id="page1" class="page active">
-        <h2>Página 1</h2>
-        <p>Esta é a primeira página. Pisque para mudar.</p>
+        <h2>Which of the following information can be displayed by top?</h2>
+        <p>Running processes, ordered by CPU or RAM consumption</p>
+        <h2>Which command-line tool will create a filename that ends in .gz?</h2>
+        <p>gzip</p>
+        <h2>Which command is used to print the full contents of a file to the screen at once?</h2>
+        <p>cat</p>
+        <h2>Which redirection operator accepts text on the following lines as standard input?</h2>
+        <p>'<<'</p>
+        <h2>You are in a directory that contains several hidden files. Which command should you use to display hidden files in the current directory?</h2>
+        <p>ls -a</p>
     </div>
     
     <div id="page2" class="page">
         <h2>Página 2</h2>
-        <p>Esta é a segunda página. Pisque para voltar.</p>
+        <p>Esta é a segunda página.</p>
+        <p>Será automaticamente alternada com a página 1 a cada 3 segundos.</p>
     </div>
-    
-    <div id="status">Carregando modelos...</div>
     
     <script src="script.js"></script>
 </body>
