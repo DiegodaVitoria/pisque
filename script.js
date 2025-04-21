@@ -1,6 +1,6 @@
 // Variáveis globais
 let currentPage = 1;
-let timeLeft = 4;
+let timeLeft = 3;
 const pages = document.querySelectorAll('.page');
 const timerElement = document.getElementById('timer');
 
