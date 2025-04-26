@@ -11,6 +11,7 @@
             text-align: center;
             margin: 20px;
         }
+
         .page {
             display: none;
             font-size: 0.8em;
@@ -18,12 +19,15 @@
             border: 1px solid #ccc;
             margin: 20px auto;
             max-width: 600px;
+
         }
 
         p {
             color: #ca0404;
             font-weight: bold;
         }
+
+
 
         .active {
             display: block;
@@ -39,363 +43,484 @@
 
 <body>
 
-    <div id="timer">Próxima mudança em: 3 segundos</div>
+    <div id="timer">3 segundos</div>
 
-    <div id="page1" class="page active">
-
-        <h3>Which option can be used with tail to print the last X bytes of a file to the screen?</h3>
-        <p>-c</p>
-        <h3>Which option will cause the echo command NOT to output a trailing newline?</h3>
-        <p>-n</p>
-        <h3>Which of the following options must be used to remove a directory and its subdirectories?</h3>
-        <p>rm -r</p>
-        <h3>Which option can be used with tail to print the last 10 lines of a file and then keep printing any new lines
-            that may be added continuously?</h3>
-        <p>-f</p>
-        <h3>What option can be used with cat to display line numbers with the text of a file to the screen?</h3>
-        <p>-n</p>
-        <h3>Which of the following commands is used to show the information about a directory or a symbolic link?</h3>
-        <p>ls -d</p>
-        <h3>You are in a directory that contains several hidden files. Which command should you use to display hidden
-            files in the current directory?</h3>
-        <p>ls -a</p>
-        <h3>Which of the following options is used with tar to create a new .tar archive file?</h3>
-        <p>-c</p>
-        <h3>Which option can be used with useradd to specify the home directory for a user?</h3>
-        <p>-d</p>
-        <h6>01</h6>
-    </div>
-    <div id="page2" class="page">
-        <h3>Which command can be used to search help files that mention the word “copy”?</h3>
-        <p>man –k copy</p>
-        <h3>Which command line can be used to search help files that mention the word 'copy'?</h3>
-        <p>man -k copy</p>
-        <h3>After installing a new package, in which directory are you most likely to find its configuration file?</h3>
-        <p>/etc</p>
-        <h3>Which of the following directories is often used to store log files?</h3>
-        <p>/var</p>
-        <h3>Which of the following is used as a virtual or pseudo filesystem to provide a tree of all of the device
-            nodes and drivers in the running kernel?</h3>
-        <p>/dev</p>
-        <h3>Which of the following is used as a virtual or pseudo filesystem used to interface with the kernel and
-            process?</h3>
-        <p>/proc
-        <h3>Which of the following directories contain all of the installed kernels on your system and their needed
-            drivers?</h3>
-        <p>/boot
-        <h3>Where should temporary files be stored on a Linux system that can be safely deleted during a reboot?</h3>
-        <p>/tmp
-        <h3>Which of the following files holds the definition of the local user accounts?</h3>
-        <p>/etc/passwd</p>
-        <h6>02</h6>
-    </div>
-    <div id="page3" class="page">
-        <h3>Which command would be used to change the owner of foo1.txt from jasondion to administrator?</h3>
-        <p>chown
-        <h3>Which file on a Linux system contains the passwords for each user on the system?</h3>
-        <p>/etc/shadow
-        <h3>Which of the following is NOT contained in the /etc/passwd file?</h3>
-        <p>The password of the user's account
-        <h3>Which command is used to change the password of a user's account?</h3>
-        <p>passwd
-        <h3>Which of the following is the act of <u>creating a virtual version</u> of components such as storage devices
-            and computer network resources called?</h3>
-        <p>Virtualization</p>
-        <h3>What does GUI stand for?</h3>
-        <p>Graphical User Interface</p>
-        <h3>Which of the following does Raspbian Linux run on?</h3>
-        <p>Raspberry Pi</p>
-        <h3>Which of the following is an example of embedded Linux?</h3>
-        <p>Android</p>
-        <h3>What directly controls hardware and translates the commands from a piece of software into something the
-            hardware can understand and act upon?</h3>
-        <p>Kernel</p>
-        <h3>Which of the following programs on a Linux system could you use as a replacement for Microsoft Word?</h3>
-        <p>Writer</p>
-        <h6>03</h6>
-    </div>
-    <div id="page4" class="page">
-        <h3>Which of the following is an American non-profit organization devoted to expanding the range of creative
-            works available for others to build upon legally and to share?</h3>
-        <p>Creative Commons</p>
-        <h3>What is the generic name given to the action of protecting shell meta-characters from being treated
-            specially by the shell?</h3>
-        <p>Quoting</p>
-        <h3>Which of the following can be used to represent a single number from 3 to 9?</h3>
-        <p>[3-9]</p>
-        <h3>Which of the following is a valid option for a typical command to get its built-in usage information?</h3>
-        <p>--help</p>
-        <h3>Which of the following commands will output a list of all of the file names under your home directory and
-            all subdirectories with file names ending with .pdf?</h3>
-        <p>find ~ -name '*.pdf'</p>
-        <h3>What is a set of pages that explain every command available on the system?</h3>
-        <p>Man pages</p>
-        <h3>Your current present working directory is /home/jason/documents/. You just entered cd .. into the command
-            line and then enter pwd. What output do you receive?</h3>
-        <p>/home/jason</p>
-        <h3>Your current present working directory is /home/jason/documents/. You just entered cd . into the command
-            line and then enter pwd. What output do you receive?</h3>
-        <p>/home/jason/documents/
-        <h3>Which of the following is NOT a valid rule in naming a variable?</h3>
-        <p>Variable names must start with numbers</p>
-        <h3>What is the proper command to use to compress the file filename.txt into the zip archive called myfile.zip?
-        </h3>
-        <p>zip myfile.zip filename.txt</p>
-        <h3>What statement is used to get input from the terminal when a shell script is being run?</h3>
-        <p>read</p>
-        <h6>04</h6>
-    </div>
-    <div id="page5" class="page">
-        <h3>Which command is used to make a shell variable known to subsequently executed programs?</h3>
-        <p>export</p>
-        <h3>What is one of the most basic features of a shell script?</h3>
-        <p>The ability to run commands</p>
-        <h3>Which of the following commands will create an archive file, named backup.tar, containing all the files from
-            the directory /home?</h3>
-        <p>tar -cf backup.tar /home</p>
-        <h3>Which command is used to print the first 10 lines of a file to the display?</h3>
-        <p>head</p>
-        <h3>What does HCL mean?</h3>
-        <p>Hardware Compatibility List</p>
-        <h3>What is a daemon?</h3>
-        <p>A program that runs in the background of the system</p>
-        <h3>Which of the following is a requirement of the GPL license but not the BSD license?</h3>
-        <p>Users who modify and distribute the software under the GPL license must make the modifications they made
-            available to the recipients under the same license</p>
-        <h3>Which of the following is the correct order of a computer's operation?</h3>
-        <p>(1) The computer waits for user input, (2) The user selects a command and enters it via the keyboard or
-            mouse, (3) The computer executes the command</p>
-        <h3>Which of the following displays network connections for Transmission Control Protocol, routing tables, and a
-            number of network interface and network protocol statistics?</h3>
-        <p>netstat</p>
-        <h3>What permissions does foo1.txt have after running "chmod 644 foo1.txt"?</h3>
-        <p>foo1.txt is readable/writeable by the owner
-        <p>
-        <h6>05</h6>
-    </div>
-    <div id="page6" class="page">
-        <h3>Which type of link is used to points to another file like a shortcut in Windows or a Macintosh alias?</h3>
-        <p>Symbolic link</p>
-        <h3>Which type of link contains the data in the target file?</h3>
-        <p>Hard link</p>
-        <h3>A file currently has permissions of 755. Which of the following commands would change file permission to
-            r-xr--r--?</h3>
-        <p>chmod 544 filename</p>
-        <h3>Which of the following tasks is not performed automatically for a user account when it is created using the
-            useradd command?</h3>
-        <p>Create the user's home directory</p>
-        <h3>Which of the following information can be displayed by top?</h3>
-        <p> Running processes, ordered by CPU or RAM consumption </p>
-        <h3>Which command-line tool will create a filename that ends in .gz?</h3>
-        <p>gzip </p>
-        <h3>Which command is used to print the full contents of a file to the screen at once?</h3>
-        <p>cat </p>
-        <h3>Which redirection operator accepts text on the following lines as standard input?</h3>
-        <p> << </p>
-        <h3>A Linux computer currently has no access to the internet. Which command is used to display and
-                    manipulate the information about the network gateway for the system?</h3>
-        <p>route </p>
-        <h3>Which of the following would properly identify the device associated with the second partition on
-                    the first hard disk on the first IDE controller of a system?</h3>
-        <p>/dev/hda2 </p>
-        <h6>06</h6>
-    </div>
-    <div id="page7" class="page">
-        <h3>What column tells the “w” program which session is running?</h3>
-        <p>WHAT </p>
-        <h3>Which UID is usually used to represent the first regular user on a Linux system?</h3>
-        <p>1000 </p>
-        <h3>Which of the following commands will output all of the lines with the name Fred in upper or lower case but
-            not the word red from the file data_file?</h3>
-        <p>grep '[Ff]red' data_file </p>
-        <h3>Which of the following programs on a Linux system could you use instead of Windows Media Player?</h3>
-        <p>VLC </p>
-        <h3>What is defined by a Free Software license?</h3>
-        <p>The conditions for modifying and distributing the licensed software </p>
-        <h3>What is the main difference between Linux and Windows/MAC OS?</h3>
-        <p>Linux is open source software while the other two are closed source operating systems </p>
-        <h3>What is the practice of offering people the right to freely distribute copies and modified versions of a
-            work with the stipulation that the same rights be preserved in derivative works created later called?</h3>
-        <p>Copyleft </p>
-        <h3>Which of the following is NOT a heightened value proposition of Open Source Software compared to Proprietary
-            Software?</h3>
-        <p> Popularity </p>
-        <h3>When using a web browser, what should a user do to prevent private data from being stored locally?</h3>
-        <p>Browsers can be configured to use a private mode that does not store any data locally </p>
-        <h3>What command would a user enter to delete a directory containing no other files or directories within it?
-        </h3>
-        <p>rmdir </p>
-        <h6>07</h6>
-    </div>
-    <div id="page8" class="page">
-        <h3>Which of the following commands can search for executable programs or scripts located in the PATH variable?
-        </h3>
-        <p>which </p>
-        <h3>What must the user do to run a program that is not within a directory located in the PATH variable?</h3>
-        <p>include the file path to the program </p>
-        <h3>Which keyboard shortcut allows copying highlighted text while working in the command line terminal?</h3>
-        <p>CTRL + SHIFT + C </p>
-        <h3>You have just created a text file with a secret password in it called password.txt. You want to ensure that
-            the password is not seen when the ls command is run within the current directory. What command should you
-            use to ensure the text file is hidden from the filesystem?</h3>
-        <p>mv password.txt .password.txt </p>
-        <h3>Which of the following commands will create a single directory named dir1 dir2?</h3>
-        <p>mkdir “dir1 dir2” </p>
-        <h3>Which of the following provides the correct syntax to search for lines beginning with the given pattern
-            using the grep command?</h3>
-        <p>^pattern </p>
-        <h3>Which of the following is the file descriptor number used to represent the Standard In (STDIN)?</h3>
-        <p>0 </p>
-        <h3>Which of the following is the file descriptor number used to represent the Standard Out (STDOUT)?</h3>
-        <p>1 </p>
-        <h3>Which version of Linux should be installed on a system with a 32-bit processor?</h3>
-        <p>x86 </p>
-        <h3>Which version of Linux should be installed on a system with a 64-bit processor?</h3>
-        <p>x64 </p>
-        <h6>08</h6>
-    </div>
-    <div id="page9" class="page">
-        <h3> Which of the following programs on a Linux system could you use as a replacement for Adobe Photoshop?</h3>
-        <p> Gimp</p>
-
-        <h3> Which of the following answers is true for cloud computing?</h3>
-        <p> Cloud Computing provides new tools to manage IT resources</p>
-
-        <h3> Which of the following is the UNIX device name for a physical or virtual terminal connection?</h3>
-        <p> tty</p>
-
-        <h3> Which is NOT a Linux distribution?</h3>
-        <p> Torvalds</p>
-
-        <h3> Which of the following programs on a Linux system could you use as a replacement for Microsoft PowerPoint?
-        </h3>
-        <p> Impress</p>
-
-        <h3>Which of the following is the on-demand availability of computer system resources, especially data storage
-            and computing power, without direct active management by the user? </h3>
-        <p>Cloud Computing </p>
-
-        <h3> Which Linux distribution is used as a basis for the creation of Ubuntu Linux?</h3>
-        <p> Debian</p>
-
-        <h3> Which command is used to rename a file on Linux?</h3>
-        <p> mv</p>
-
-        <h3> Which of the following is true about environment variable names by convention?</h3>
-        <p> Contains all uppercase letters</p>
-
-        <h3> You are working on a script that requires combining the contents of two text files, file1.txt and file2.txt
-            into a single output on the terminal. Which command should you use?</h3>
-        <p> cat</p>
-        <h6>09</h6>
-    </div>
-
-    <div id="page10" class="page">
-        <h3> What symbol can be used to represent none, one, or multiple characters within search criteria?</h3>
-        <p> *</p>
-
-        <h3> What does the "rm -rf" command do in Linux?</h3>
-        <p> Remove all the files in the directory and subdirectories</p>
-
-        <h3> Which of the following commands increases the number of files within a directory?</h3>
-        <p> touch newfile</p>
-
-        <h3> Which command would a user type to create a new file within the current directory?</h3>
-        <p> touch</p>
-
-        <h3> Which command is used to copy files from one directory to another?</h3>
-        <p> cp</p>
-
-        <h3> Which of the following is true about a recursive directory listing?</h3>
-        <p> It includes the content of sub-directories</p>
-
-        <h3> What keyword should be used to fill in the blank in the following segment of the given shell script? for i
-            in *; _____ cat $i done</h3>
-        <p> do</p>
-
-        <h3> You have been asked to create a script will present the user with a onboard menu in which they can select 4
-            different commands to run by entering 1, 2, 3, or 4. Which of the following statements should you use to
-            create the simplest and most effective method of choosing the command to run based on the user's input?</h3>
-        <p> case</p>
-
-        <h3> How is it possible to determine if an executable file is a shell script read by Bash?</h3>
-        <p> The first line starts with #!/bin/bash.</p>
-
-        <h3> Which of the following options is used to gzip a file called filename?</h3>
-        <p> gzip filename</p>
-        <h6>10</h6>
-    </div>
-
-    <div id="page11" class="page">
-        <h3> Which of the following statements may be used to access the second command line argument to a script?</h3>
-        <p> $2</p>
-
-        <h3> Which command line tool is used to compress a single file using the Burrows-Wheeler algorithm?</h3>
-        <p> bzip2</p>
-
-        <h3> Which command can be used to display the contents of multiple files to the screen at once?</h3>
-        <p> cat</p>
-
-        <h3> Which string should you add to put the date into the prompt of the shell?</h3>
-        <p> \d</p>
-
-        <h3> How can the normal output of a command be written to a file while discarding the error output?</h3>
-        <p> command >file 2>/dev/null</p>
-
-        <h3> What is NOT one of the ways that DHCP can be used to deliver IP addresses?</h3>
-        <p> Permanent</p>
-
-        <h3> What is a set of standards that underlie most modern network communications at the software level?</h3>
+        <div id="page1" class="page active">
+        <h4>Which of the following is an open-source relational database management system?</h4>
+        <p> MySQL</p>
+        <h4> Which of the following is a Debian-based computer operating system for Raspberry Pi?</h4>
+        <p> Raspbian</p>
+        <h4> Which of the following does Raspbian Linux run on?</h4>
+        <p> Raspberry Pi</p>
+        <h4> What command would you use to get comprehensive documentation about any command in Linux?</h4>
+        <p> man command</p>
+        <h4> Which command can be used to search help files that mention the word “copy”?</h4>
+        <p> man –k copy</p>
+        <h4> What command can be used to find the executable and man pages that exist for a given command?</h4>
+        <p> whereis</p>
+        <h4> What key do you press to quit reading a man page?</h4>
+        <p> Q</p>
+        <h4> Which command searches manual page names and descriptions for a user-supplied keyword?</h4>
+        <p> apropos</p>
+        <h4> What command should be used to display the permissions for every file in the current directory?</h4>
+        <p> ls -la</p>
+        <h4> To see all the variables that are in the user's environment, use the _______ command.</h4>
+        <p> printenv</p>
+        </div>
+        
+        <div id="page2" class="page">
+        <h4> In order to rename the directory ~/documents/letters to ~/documents/archive, which of the following commands should be used?</h4>
+        <p> mv ~/documents/letters ~/documents/archive</p>
+        <h4> Which software handles the installation and removal of software on Debian and Ubuntu?</h4>
+        <p> apt</p>
+        <h4> What is a pre-integrated, self-contained system made by combining a software application (e.g., server software) with just enough operating system to run optimally on industry-standard hardware or a virtual machine?</h4>
+        <p> Virtual appliance</p>
+        <h4> Which of the following is TRUE about open source software?</h4>
+        <p> Open source software is a prominent example of open collaboration</p>
+        <h4> Which of the following can you NOT install Linux on?</h4>
+        <p> Smartcard</p>
+        <h4> Which command shows all of the directories that the shell searches for programs?</h4>
+        <p> echo $PATH</p>
+        <h4> In computer networks, what does DHCP stand for?</h4>
+        <p> Dynamic Host Configuration Protocol</p>
+        <h4> Which type of IP addresses uses a dotted-decimal notation?</h4>
+        <p> IPv4</p>
+        <h4> Which of the following commands can be used to resolve a DNS name to an IP address?</h4>
+        <p> host</p>
+        <h4> Which information is used by a computer to connect to a typical local area network?</h4>
+        <p> IP address</p>
+        </div>
+        
+        <div id="page3" class="page">
+        <h4> What command would you use to create a symbolic link in Linux?</h4>
+        <p> ln -s</p>
+        <h4> Which of the following displays network connections for Transmission Control Protocol, routing tables, and a number of network interface and network protocol statistics?</h4>
+        <p> netstat</p>
+        <h4> A Linux computer currently has no access to the internet. Which command is used to display and manipulate the information about the network gateway for the system?</h4>
+        <p> route</p>
+        <h4> What is a set of standards that underlie most modern network communications at the software level?</h4>
         <p> TCP/IP</p>
-
-        <h3> Which storage device would be listed as /dev/sdb in Linux?</h3>
-        <p> 2nd hard drive</p>
-
-        <h3> Which network interface always exists in a Linux system?</h3>
+        <h4> Which network interface always exists in a Linux system?</h4>
         <p> lo</p>
-
-        <h3> Which of the following is used as a virtual or pseudo filesystem used to interface with the kernel and
-            system as a whole but not with individual processes?</h3>
-        <p> /sys</p>
-        <h6>11</h6>
-    </div>
-
-    <div id="page12" class="page">
-        <h3> Which of the following is the filesystem for a CD-ROM?</h3>
-        <p> isofs</p>
-
-        <h3> Which of the following is NOT TRUE about the Linux Distribution Life cycle?</h3>
-        <p> Linux distros are always short term releases</p>
-
-        <h3> Which of the following commands is used to view memory usage on a system?</h3>
-        <p> free</p>
-
-        <h3> Which GID is usually used to represent the root group on a Linux system?</h3>
+        <h4> What permissions would be represented by the octal 517?</h4>
+        <p> r-x--xrwx</p>
+        <h4> How would you represent rwxr-xr-- in octal notation?</h4>
+        <p> 754</p>
+        <h4> Which of the following information is provided in the default output of the who command?</h4>
+        <p> Username, Terminal Identifier, Login Date and Time</p>
+        <h4> Which of the following is the dmesg command used for?</h4>
+        <p> To show the kernel log messages</p>
+        <h4> Which of the following software packages is a mail server?</h4>
+        <p> Postfix</p>
+        </div>
+        
+        <div id="page4" class="page">
+        <h4> What is the output of the following command?</h4>
+        <p> abc</p>
+        <h4> Which of the following commands creates an archive file work.tar from the contents of the directory ./work/?</h4>
+        <p> tar -cf work.tar ./work/</p>
+        <h4> Which command will display the last line of the file document.txt?</h4>
+        <p> tail -n 1 document.txt</p>
+        <h4> Which command is used to print the last 10 lines of a file to the display?</h4>
+        <p> tail</p>
+        <h4> Which option can be used with tail to print the last X bytes of a file to the screen?</h4>
+        <p> -c</p>
+        <h4> What option can be used with tail or head to specify the number of lines to display to the screen?</h4>
+        <p> -n</p>
+        <h4> Which option can be used with tail to print the last 10 lines of a file and then keep printing any new lines that may be added continuously?</h4>
+        <p> -f</p>
+        <h4> Which of the following is used to redirect the standard output of a command to a file?</h4>
+        <p> 1></p>
+        <h4> Which of the following commands is used to extract files from a zip archive?</h4>
+        <p> -v</p>
+        <h4> Which of the following is used to untar a tar archive file?</h4>
+        <p> tar -x</p>
+        </div>
+        
+        <div id="page5" class="page">
+        <h4> Which command is used to print one page of text to the screen at a time?</h4>
+        <p>less</p>
+        <h4> Which of the following characters in a shell prompt indicates the shell is running with root privileges?</h4>
+        <p> #</p>
+        <h4> Typing $ followed by pressing which key twice, in quick succession, will list all of the variables?</h4>
+        <p> TAB</p>
+        <h4> Which of the following is the act of creating a virtual version of components such as storage devices and computer network resources called?</h4>
+        <p> Virtualization</p>
+        <h4> What does GUI stand for?</h4>
+        <p> Graphical User Interface</p>
+        <h4> Which of the following is an example of embedded Linux?</h4>
+        <p> Android</p>
+        <h4> What directly controls hardware and translates the commands from a piece of software into something the hardware can understand and act upon?</h4>
+        <p> Kernel</p>
+        <h4> Which of the following programs on a Linux system could you use as a replacement for Microsoft Word?</h4>
+        <p> Writer</p>
+        <h4> Which of the following is an American non-profit organization devoted to expanding the range of creative works available for others to build upon legally and to share?</h4>
+        <p> Creative Commons</p>
+        <h4> What is the generic name given to the action of protecting shell meta-characters from being treated specially by the shell?</h4>
+        <p> Quoting</p>
+        </div>
+        
+        <div id="page6" class="page">
+        <h4> Which of the following can be used to represent a single number from 3 to 9?</h4>
+        <p> [3-9]</p>
+        <h4> Which of the following is a valid option for a typical command to get its built-in usage information?</h4>
+        <p> --help</p>
+        <h4> Which option will cause the echo command NOT to output a trailing newline?</h4>
+        <p> -n</p>
+        <h4> Which of the following commands will output a list of all of the file names under your home directory and all subdirectories with file names ending with .pdf?</h4>
+        <p> find ~ -name '*.pdf'</p>
+        <h4> What is a set of pages that explain every command available on the system?</h4>
+        <p> Man pages</p>
+        <h4> Your current present working directory is /home/jason/documents/. You just entered cd .. into the command line and then enter pwd. What output do you receive?</h4>
+        <p> /home/jason</p>
+        <h4> Which of the following options must be used to remove a directory and its subdirectories?</h4>
+        <p> rm -r</p>
+        <h4> Which of the following is NOT a valid rule in naming a variable?</h4>
+        <p> Variable names must start with numbers</p>
+        <h4> What is the proper command to use to compress the file filename.txt into the zip archive called myfile.zip?</h4>
+        <p> zip myfile.zip filename.txt</p>
+        <h4> What statement is used to get input from the terminal when a shell script is being run?</h4>
+        <p> read</p>
+        </div>
+        
+        <div id="page7" class="page">
+        <h4> Consider the following script:
+        
+        ```
+        #!/bin/bash
+         ip=`route -n | grep UG | tr -s “ “ | cut -f 2 -d “ “`
+         echo “Checking to see if $ip is up...”
+         ping -c 5 $ip
+        
+        ```
+        
+        Which of the following would be the first line displayed to the screen when the script is executed by the user?</h4>
+        <p> Checking to see if ipaddress is up…</p>
+        <h4> Which command is used to make a shell variable known to subsequently executed programs?</h4>
+        <p> export</p>
+        <h4> What option can be used with cat to display line numbers with the text of a file to the screen?</h4>
+        <p> -n</p>
+        <h4> What is one of the most basic features of a shell script?</h4>
+        <p> The ability to run commands</p>
+        <h4> Which of the following commands will create an archive file, named backup.tar, containing all the files from the directory /home?</h4>
+        <p> tar -cf backup.tar /home</p>
+        <h4> Which command is used to print the first 10 lines of a file to the display?</h4>
+        <p> head</p>
+        <h4> What does HCL mean?</h4>
+        <p> Hardware Compatibility List</p>
+        <h4> What is a daemon?</h4>
+        <p> A program that runs in the background of the system</p>
+        <h4> Which of the following is a requirement of the GPL license but not the BSD license?</h4>
+        <p> Users who modify and distribute the software under the GPL license must make the modifications they made available to the recipients under the same license</p>
+        <h4> Which of the following is the correct order of a computer's operation?</h4>
+        <p> (1) The computer waits for user input, (2) The user selects a command and enters it via the keyboard or mouse, (3) The computer executes the command</p>
+        </div>
+        
+        <div id="page8" class="page">
+        <h4>Where does Linux stores most of its log files in the directory tree? </h4>
+        <p> /var/log</p>
+        <h4> Which of the following files holds the definition of the local user accounts?</h4>
+        <p> /etc/passwd</p>
+        <h4> Which file is used to define all of the users on a Linux system?</h4>
+        <p> /etc/passwd</p>
+        <h4> After installing a new package, in which directory are you most likely to find its configuration file?</h4>
+        <p> /etc</p>
+        <h4> Where are the passwords stored for users on a Linux system?</h4>
+        <p> /etc/shadow</p>
+        <h4> Which file on a Linux system contains the passwords for each user on the system?</h4>
+        <p> /etc/shadow</p>
+        <h4> Which file on a Linux system is modified to set the maximum number of days before a password must be changed?</h4>
+        <p> /etc/shadow</p>
+        <h4> Which directory contains the files and directories automatically copied over to a new user's home directory when the account is first created?</h4>
+        <p> /etc/skel</p>
+        <h4> Which of the following files contains a mapping of IP addresses to URLs locally on your Linux machine?</h4>
+        <p> /etc/hosts</p>
+        <h4> After installing a new package, in which directory are you most likely to find its configuration file?</h4>
+        <p> /etc</p>
+        </div>
+        
+        <div id="page9" class="page">
+        <h4> Which of the following directories is often used to store log files?</h4>
+        <p> /var</p>
+        <h4> Which of the following is used as a virtual or pseudo filesystem to provide a tree of all of the device nodes and drivers in the running kernel? </h4>
+        <p> /dev</p>
+        <h4> Which of the following is used as a virtual or pseudo filesystem used to interface with the kernel and process?</h4>
+        <p> /proc</p>
+        <h4> Which of the following directories contain all of the installed kernels on your system and their needed drivers?</h4>
+        <p> /boot</p>
+        <h4> What permissions does foo1.txt have after running "chmod 644 foo1.txt"?</h4>
+        <p> foo1.txt is readable/writeable by the owner</p>
+        <h4> Which type of link is used to points to another file like a shortcut in Windows or a Macintosh alias?</h4>
+        <p> Symbolic link</p>
+        <h4> Which type of link contains the data in the target file?</h4>
+        <p> Hard link</p>
+        <h4> Which of the following commands is used to show the information about a directory or a symbolic link?</h4>
+        <p> ls -d</p>
+        <h4> A file currently has permissions of 755. Which of the following commands would change file permission to r-xr--r--?</h4>
+        <p> chmod 544 filename</p>
+        <h4> Which of the following tasks is not performed automatically for a user account when it is created using the useradd command?</h4>
+        <p> Create the user's home directory</p>
+        </div>
+        
+        <div id="page10" class="page">
+        <h4> Which of the following information can be displayed by top? </h4>
+        <p> Running processes, ordered by CPU or RAM consumption</p>
+        <h4> Which command-line tool will create a filename that ends in .gz?</h4>
+        <p> gzip</p>
+        <h4> Which command is used to print the full contents of a file to the screen at once?</h4>
+        <p> cat</p>
+        <h4> Which redirection operator accepts text on the following lines as standard input?</h4>
+        <p> menor menor </p>
+        <h4> You are in a directory that contains several hidden files. Which command should you use to display hidden files in the current directory?</h4>
+        <p> ls -a</p>
+        <h4> Which version of Linux should be installed on a system with a 32-bit processor?</h4>
+        <p> x86</p>
+        <h4> Which version of Linux should be installed on a system with a 64-bit processor?</h4>
+        <p> x64</p>
+        <h4> Which of the following options is used with tar to create a new .tar archive file?</h4>
+        <p> -c</p>
+        <h4> Which of the following would properly identify the device associated with the second partition on the first hard disk on the first IDE controller of a system?</h4>
+        <p> /dev/hda2</p>
+        <h4> What column tells the “w” program which session is running?</h4>
+        <p> WHAT</p>
+        </div>
+        
+        <div id="page11" class="page">
+        <h4> Which command would be used to change the owner of foo1.txt from jasondion to administrator?</h4>
+        <p> chown</p>
+        <h4> Which of the following is NOT contained in the /etc/passwd file?</h4>
+        <p> The password of the user's account</p>
+        <h4> Which command is used to change the password of a user's account?</h4>
+        <p> passwd</p>
+        <h4> Which option can be used with useradd to specify the home directory for a user?</h4>
+        <p> -d</p>
+        <h4> Where should temporary files be stored on a Linux system that can be safely deleted during a reboot?</h4>
+        <p> /tmp</p>
+        <h4> Which of the following commands will output all of the lines with the name Fred in upper or lower case but not the word red from the file data_file?</h4>
+        <p> grep '[Ff]red' data_file</p>
+        <h4> Which of the following programs on a Linux system could you use instead of Windows Media Player?</h4>
+        <p> VLC</p>
+        <h4> What is defined by a Free Software license?</h4>
+        <p> The conditions for modifying and distributing the licensed software</p>
+        <h4> What is the main difference between Linux and Windows/MAC OS?</h4>
+        <p> Linux is open source software while the other two are closed source operating systems</p>
+        <h4> What is the practice of offering people the right to freely distribute copies and modified versions of a work with the stipulation that the same rights be preserved in derivative works created later called?</h4>
+        <p> Copyleft</p>
+        </div>
+        
+        <div id="page12" class="page">
+        <h4> Which of the following is NOT a heightened value proposition of Open Source Software compared to Proprietary Software?</h4>
+        <p> Popularity</p>
+        <h4> When using a web browser, what should a user do to prevent private data from being stored locally?</h4>
+        <p> Browsers can be configured to use a private mode that does not store any data locally</p>
+        <h4> What command would a user enter to delete a directory containing no other files or directories within it?</h4>
+        <p> rmdir</p>
+        <h4> Which of the following commands can search for executable programs or scripts located in the PATH variable?</h4>
+        <p> which</p>
+        <h4> What must the user do to run a program that is not within a directory located in the PATH variable?</h4>
+        <p> include the file path to the program</p>
+        <h4> Which keyboard shortcut allows copying highlighted text while working in the command line terminal?</h4>
+        <p> CTRL + SHIFT + C</p>
+        <h4> Which keyboard shortcut allows pasting a previously copied highlighted text while working in the command line terminal?</h4>
+        <p> CTRL + SHIFT + V</p>
+        <h4> Your current present working directory is /home/jason/documents/. You just entered cd . into the command line and then enter pwd. What output do you receive?</h4>
+        <p> /home/jason/documents/</p>
+        <h4> You have just created a text file with a secret password in it called password.txt. You want to ensure that the password is not seen when the ls command is run within the current directory. What command should you use to ensure the text file is hidden from the filesystem?</h4>
+        <p> mv password.txt .password.txt</p>
+        <h4> Which of the following commands will create a single directory named dir1 dir2?</h4>
+        <p> mkdir “dir1 dir2”</p>
+        </div>
+        
+        <div id="page13" class="page">
+        <h4> Which of the following provides the correct syntax to search for lines beginning with the given pattern using the grep command?</h4>
+        <p> ^pattern</p>
+        <h4> Which of the following is the file descriptor number used to represent the Standard In (STDIN)?</h4>
         <p> 0</p>
-
-        <h3> Which of the following ways would NOT allow a user to perform a command-line task that requires root
-            privileges?</h3>
+        <h4> Which of the following is the file descriptor number used to represent the Standard Out (STDOUT)?</h4>
+        <p> 1</p>
+        <h4> Which UID is usually used to represent the root user on a Linux system?</h4>
+        <p> 0</p>
+        <h4> Which GID is usually used to represent the root group on a Linux system?</h4>
+        <p> 0</p>
+        <h4> Which of the following is the file descriptor number used to represent the Standard Error (STDERR)?</h4>
+        <p> 2</p>
+        <h4> Which UID is usually used to represent the first regular user on a Linux system?</h4>
+        <p> 1000</p>
+        <h4> What is the limit on the number of user accounts in a single computer in Linux?</h4>
+        <p> Unlimited</p>
+        <h4> Which of the following programs on a Linux system could you use as a replacement for Adobe Photoshop?</h4>
+        <p> Gimp</p>
+        <h4> Which of the following is the UNIX device name for a physical or virtual terminal connection?</h4>
+        <p> tty</p>
+        </div>
+        
+        <div id="page14" class="page">
+        <h4> Which of the following answers is true for cloud computing?</h4>
+        <p> Cloud Computing provides new tools to manage IT resources</p>
+        <h4> Which is NOT a Linux distribution?</h4>
+        <p> Torvalds</p>
+        <h4> Which of the following programs on a Linux system could you use as a replacement for Microsoft PowerPoint?</h4>
+        <p> Impress</p>
+        <h4> Which of the following is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user?</h4>
+        <p> Cloud Computing</p>
+        <h4> Which Linux distribution is used as a basis for the creation of Ubuntu Linux?</h4>
+        <p> Debian</p>
+        <h4> Which command is used to rename a file on Linux?</h4>
+        <p> mv</p>
+        <h4> Which of the following is true about environment variable names by convention?</h4>
+        <p> Contains all uppercase letters</p>
+        <h4> You are working on a script that requires combining the contents of two text files, file1.txt and file2.txt into a single output on the terminal. Which command should you use?</h4>
+        <p> cat</p>
+        <h4> What symbol can be used to represent none, one, or multiple characters within search criteria?</h4>
+        <p> *</p>
+        <h4> What does the "rm -rf" command do in Linux?</h4>
+        <p> Remove all the files in the directory and subdirectories</p>
+        </div>
+        
+        <div id="page15" class="page">
+        <h4> Which of the following commands increases the number of files within a directory?</h4>
+        <p> touch newfile</p>
+        <h4> Which command would a user type to create a new file within the current directory?</h4>
+        <p> touch</p>
+        <h4> Which command is used to copy files from one directory to another?</h4>
+        <p> cp</p>
+        <h4> Which of the following is true about a recursive directory listing?</h4>
+        <p> It includes the content of sub-directories</p>
+        <h4> What keyword should be used to fill in the blank in the following segment of the given shell script? for i in *; _____ cat $i done</h4>
+        <p> do</p>
+        <h4> You have been asked to create a script will present the user with a onboard menu in which they can select 4 different commands to run by entering 1, 2, 3, or 4. Which of the following statements should you use to create the simplest and most effective method of choosing the command to run based on the user's input?</h4>
+        <p> case</p>
+        <h4> How is it possible to determine if an executable file is a shell script read by Bash?</h4>
+        <p> The first line starts with #!/bin/bash.</p>
+        <h4> Which of the following options is used to gzip a file called filename?</h4>
+        <p> gzip filename</p>
+        <h4> Which of the following statements may be used to access the second command line argument to a script?</h4>
+        <p> $2</p>
+        <h4> Which command line tool is used to compress a single file using the Burrows-Wheeler algorithm?</h4>
+        <p> bzip2</p>
+        </div>
+        
+        <div id="page16" class="page">
+        <h4> Which command can be used to display the contents of multiple files to the screen at once?</h4>
+        <p> cat</p>
+        <h4> Which string should you add to put the date into the prompt of the shell?</h4>
+        <p> \d</p>
+        <h4> How can the normal output of a command be written to a file while discarding the error output?</h4>
+        <p> command >file 2>/dev/null</p>
+        <h4> What is NOT one of the ways that DHCP can be used to deliver IP addresses?</h4>
+        <p> Permanent</p>
+        <h4> Which storage device would be listed as /dev/sdb in Linux?</h4>
+        <p> 2nd hard drive</p>
+        <h4> Which of the following is used as a virtual or pseudo filesystem used to interface with the kernel and system as a whole but not with individual processes?</h4>
+        <p> /sys</p>
+        <h4> Which of the following is the filesystem for a CD-ROM? </h4>
+        <p> isofs</p>
+        <h4> Which of the following is NOT TRUE about the Linux Distribution Life cycle?</h4>
+        <p> Linux distros are always short term releases</p>
+        <h4> Which of the following commands is used to view memory usage on a system?</h4>
+        <p> free</p>
+        <h4> Which of the following ways would NOT allow a user to perform a command-line task that requires root privileges?</h4>
         <p> Disabling firewall and force open a directory, file, or folder</p>
-
-        <h3> Which of the following commands can be used to change default permissions for files and directories at the
-            time of creation?</h3>
+        </div>
+        
+        <div id="page17" class="page">
+        <h4> Which of the following commands can be used to change default permissions for files and directories at the time of creation?</h4>
         <p> umask</p>
-
-        <h3> Which option can be used with useradd to create a new user without a home directory?</h3>
+        <h4> Which option can be used with useradd to create a new user without a home directory?</h4>
         <p> -M</p>
-
-        <h3> What does the letter t at the end of drwxrwxrwt indicate within the following directory permissions?
-            drwxrwxrwt 14 root root 36864 2012-03-02 11:17 /tmp</h3>
-        <p>The t is used to show that the directory is globally writable, but only the owner can delete their own files
-            within the directory </p>
-
-        <h3> What umask should be set for a directory to have 700 as its octal permissions? --432-- --rwx--</h3>
+        <h4> What does the letter t at the end of drwxrwxrwt indicate within the following directory permissions?  drwxrwxrwt 14 root root 36864 2012-03-02 11:17 /tmp</h4>
+        <p> The t is used to show that the directory is globally writable, but only the owner can delete their own files within the directory</p>
+        <h4> What umask should be set for a directory to have 700 as its octal permissions?</h4>
         <p> rwx------</p>
-
-        <h3> What command is used to change the group ownership of a file?</h3>
+        <h4> What command is used to change the group ownership of a file?</h4>
         <p> chgrp</p>
-        <h6>12</h6>
-    </div>
+        <h4> Why are web browser cookies considered dangerous?</h4>
+        <p> Cookies support identification and tracking of users</p>
+        <h4> Which of the following is NOT a Linux desktop environment?</h4>
+        <p> Dwarf</p>
+        <h4> Why is the file data.txt empty after executing sort data.txt > data.txt?</h4>
+        <p> Because the file gets truncated before sort is executed</p>
+        <h4> What symbol can be used to represent a single character within the search criteria?</h4>
+        <p> ?</p>
+        <h4> What is the ls command used for in Linux?</h4>
+        <p> Lists the files within a directory</p>
+        </div>
+        
+        <div id="page18" class="page">
+        <h4> Which Linux file type hold lists of files rather than the actual data?</h4>
+        <p> Directories</p>
+        <h4> How do you perform a recursive listing from the command prompt?</h4>
+        <p> ls -R</p>
+        <h4> Which character is known as a root directory?</h4>
+        <p> /</p>
+        <h4> Which command closes the terminal window?</h4>
+        <p> exit</p>
+        <h4> Which of the following can be used to represent the letters A through Q using only lowercase letters? </h4>
+        <p> [a-q]</p>
+        <h4> Which of the following is an interpreted, high-level, general-purpose programming language?</h4>
+        <p> Python</p>
+        <h4> Which of the following is a piece of software that listens for network requests and responds to them?</h4>
+        <p> Apache</p>
+        <h4> Which of the following is a mobile operating system based on a modified version of the Linux kernel designed primarily for touchscreen mobile devices?</h4>
+        <p> Android</p>
+        <h4> Which of the following programs on a Linux system could you use as a replacement for Microsoft Outlook?</h4>
+        <p> Thunderbird</p>
+        <h4> What does the term GPL stand for?</h4>
+        <p> General Public License</p>
+        </div>
+        
+        <div id="page19" class="page">
+        <h4> The output of the program date should be saved in the variable datenow. What is the correct statement to enter into the shell to set this variable?</h4>
+        <p> datenow=$(date)</p>
+        <h4> What is the main difference between the desktop environments of Windows/Mac OS and Linux?</h4>
+        <p> Windows/Mac OS each have an inseparable desktop environment while Linux desktop environments are modular</p>
+        <h4> You have just installed a wireless network adapter in your Linux system, but you cannot connect to the wireless network. What is most likely the problem?</h4>
+        <p> You didn't install the right driver for the device</p>
+        <h4> What is the maximum amount of memory accessible by a 32-bit operating system?</h4>
+        <p> 4 GB</p>
+        <h4> When the free command is run, what does the Mem: line reveal about the system?</h4>
+        <p> RAM statistics</p>
+        <h4> What is the symbolic representation of the octal numeric permission 644?</h4>
+        <p> rw-r--r--</p>
+        <h4> Which of the following commands will display a list of all files in the current directory, including those that may be hidden?</h4>
+        <p> ls -a</p>
+        <h4> After running a command to delete all of the files beginning with the letter "a", the file Access.txt remained. Assuming that the user had the correct ownership and permissions, why was Access.txt not deleted when the command was run?</h4>
+        <p> Linux file names are case sensitive</p>
+        <h4> Which command shows who is logged on and what they are doing in the system?</h4>
+        <p> w</p>
+        <h4> Which of the following statements is TRUE for a Linux distribution used in an enterprise environment?</h4>
+        <p> These distributions contain software versions that have proven to be stable even when they are not the most recent version of the software available</p>
+        </div>
+        
+        <div id="page20" class="page">
+        <h4> You have downloaded a large Linux distribution as an ISO that requires 3 GB of installation files. You want to perform the install from an optical drive. What type of disc should you burn the ISO file onto?</h4>
+        <p> DVD</p>
+        <h4> Which of the following commands can be used to resolve a DNS name to an IP address?</h4>
+        <p> nslookup</p>
+        <h4> Which of the following provides the correct syntax to search for lines ending with the given pattern using the grep command?</h4>
+        <p> pattern$</p>
+        <h4> Which of the following statements would be used for sending both standard output and standard error to the same location?</h4>
+        <p> 2>&1</p>
+        <h4> Which of the following options is used with tar to specify the filename of the tar archive?</h4>
+        <p> -f</p>
+        <h4> Which of the following commands could be used to connect to a remote server and execute some commands securely?</h4>
+        <p> ssh</p>
+        <h4> What is used as a placeholder for an unknown value in a script, and its value is then calculated or determined when the script is executed?</h4>
+        <p> Variable</p>
+        <h4> The [script.sh](http://script.sh/) consists of the following lines:
+        
+        ```bash
+        #!/bin/bash
+        echo $2 $1
+        ```
+        
+        Which output will appear if the command, ./script.sh test1 test2, is entered?</h4>
+        <p> test2 test1</p>
+        <h4> </h4>
+        <p> </p>
+        <h4> </h4>
+        <p> </p>
+        </div>
 
 
     <script src="script.js"></script>
