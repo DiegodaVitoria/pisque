@@ -10,6 +10,9 @@
             font-family: Arial, sans-serif;
             text-align: left;
             margin: 20px;
+            position: relative;
+            min-height: 100vh;
+            padding-bottom: 60px; /* Espaço para o botão */
         }
 
         .page {
@@ -19,15 +22,12 @@
             border: 1px solid #ccc;
             margin: 20px auto;
             max-width: 600px;
-
         }
 
         p {
             color: #ca0404;
             font-weight: bold;
         }
-
-
 
         .active {
             display: block;
@@ -37,6 +37,34 @@
             font-size: 0.8em;
             margin: 20px;
             font-weight: bold;
+        }
+
+        #skip-button {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            padding: 10px 20px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 0.9em;
+            z-index: 1000;
+        }
+
+        #skip-button:hover {
+            background-color: #45a049;
+        }
+
+        #page-indicator {
+            position: fixed;
+            bottom: 20px;
+            left: 20px;
+            font-size: 0.9em;
+            background-color: #f1f1f1;
+            padding: 5px 10px;
+            border-radius: 4px;
         }
     </style>
 </head>
@@ -67,6 +95,10 @@
         <h4> To see all the variables that are in the user's environment, use the _______ command.</h4>
         <p> printenv</p>
         </div>
+        <!-- Adicione mais páginas aqui conforme necessário -->
+    
+    <div id="skip-button">Pular Página</div>
+    <div id="page-indicator">Página 1 de 24</div>
         
         <div id="page2" class="page">
         <h4> In order to rename the directory ~/documents/letters to ~/documents/archive, which of the following commands should be used?</h4>
@@ -90,6 +122,10 @@
         <h4> Which information is used by a computer to connect to a typical local area network?</h4>
         <p> IP address</p>
         </div>
+        <!-- Adicione mais páginas aqui conforme necessário -->
+    
+    <div id="skip-button">Pular Página</div>
+    <div id="page-indicator">Página 1 de 24</div>
         
         <div id="page3" class="page">
         <h4> What command would you use to create a symbolic link in Linux?</h4>
@@ -112,6 +148,11 @@
         <p> To show the kernel log messages</p>
         <h4> Which of the following software packages is a mail server?</h4>
         <p> Postfix</p>
+
+                <!-- Adicione mais páginas aqui conforme necessário -->
+    
+    <div id="skip-button">Pular Página</div>
+    <div id="page-indicator">Página 1 de 24</div>
         </div>
         
         <div id="page4" class="page">
