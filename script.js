@@ -1,7 +1,7 @@
         // Variáveis globais
         let currentPage = 1;
         const totalPages = 24; // Definimos o total de páginas
-        let timeLeft = 8;
+        let timeLeft = 15;
         const pages = document.querySelectorAll('.page');
         const timerElement = document.getElementById('timer');
         const pageIndicator = document.getElementById('page-indicator');
